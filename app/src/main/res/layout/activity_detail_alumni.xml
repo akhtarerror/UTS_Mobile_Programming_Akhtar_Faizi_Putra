@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailAlumniActivity">
+
+    <!-- NIM -->
+    <EditText
+        android:id="@+id/editTextNim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nim"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Nama Alumni -->
+    <EditText
+        android:id="@+id/editTextNamaAlumni"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Alumni"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNim"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Tempat Lahir -->
+    <EditText
+        android:id="@+id/editTextTempatLahir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Tempat Lahir"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNamaAlumni"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Tanggal Lahir -->
+    <EditText
+        android:id="@+id/editTextTanggalLahir"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Tanggal Lahir"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTempatLahir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Alamat -->
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTanggalLahir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Agama -->
+    <EditText
+        android:id="@+id/editTextAgama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Agama"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAlamat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- TlP/hp -->
+    <EditText
+        android:id="@+id/editTextTlp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="TlP/hp"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAgama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Tahun Masuk -->
+    <EditText
+        android:id="@+id/editTextTahunMasuk"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Tahun Masuk"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTlp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Tahun Lulus -->
+    <EditText
+        android:id="@+id/editTextTahunLulus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Tahun Lulus"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTahunMasuk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Pekerjaan -->
+    <EditText
+        android:id="@+id/editTextPekerjaan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Pekerjaan"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTahunLulus"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <!-- Jabatan -->
+    <EditText
+        android:id="@+id/editTextJabatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Jabatan"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPekerjaan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSimpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        app:layout_constraintTop_toBottomOf="@+id/editTextJabatan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonUbah"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"/>
+
+    <!-- Ubah Button -->
+    <Button
+        android:id="@+id/buttonUbah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        app:layout_constraintTop_toBottomOf="@+id/editTextJabatan"
+        app:layout_constraintStart_toEndOf="@+id/buttonSimpan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="8dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataAlumniActivity">
+
+    <!-- Data 1 -->
+    <TextView
+        android:id="@+id/textViewNim1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="NIM: 2207411002"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/textViewNamaAlumni1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nama: Akhtar Faizi Putra"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNim1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <View
+        android:id="@+id/underLine1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNamaAlumni1"
+        app:layout_constraintStart_toStartOf="@+id/textViewNamaAlumni1"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNamaAlumni1" />
+
+    <!-- Data 2 -->
+    <TextView
+        android:id="@+id/textViewNim2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="NIM: 220741104"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/underLine1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/textViewNamaAlumni2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nama: Andi Rizki Mahesa"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNim2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <View
+        android:id="@+id/underLine2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNamaAlumni2"
+        app:layout_constraintStart_toStartOf="@+id/textViewNamaAlumni2"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNamaAlumni2" />
+
+    <!-- Data 3 -->
+    <TextView
+        android:id="@+id/textViewNim3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="NIM: 2207411009"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/underLine2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/textViewNamaAlumni3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nama: Made Dharmagiri"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNim3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <View
+        android:id="@+id/underLine3"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNamaAlumni3"
+        app:layout_constraintStart_toStartOf="@+id/textViewNamaAlumni3"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNamaAlumni3" />
+
+    <!-- Data 4 -->
+    <TextView
+        android:id="@+id/textViewNim4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="NIM: 2207411012"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/underLine3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/textViewNamaAlumni4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nama: Nama Alumni 4"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNim4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <View
+        android:id="@+id/underLine4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNamaAlumni4"
+        app:layout_constraintStart_toStartOf="@+id/textViewNamaAlumni4"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNamaAlumni4" />
+
+    <!-- Data 5 -->
+    <TextView
+        android:id="@+id/textViewNim5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="NIM: 2207411013"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/underLine4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <TextView
+        android:id="@+id/textViewNamaAlumni5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Nama: Nama Alumni 5"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNim5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <View
+        android:id="@+id/underLine5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNamaAlumni5"
+        app:layout_constraintStart_toStartOf="@+id/textViewNamaAlumni5"
+        app:layout_constraintEnd_toEndOf="@+id/textViewNamaAlumni5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

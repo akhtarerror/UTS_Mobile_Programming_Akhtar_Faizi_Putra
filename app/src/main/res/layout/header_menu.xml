@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- Tambahkan semua item menu di sini -->
+    <TextView
+        android:id="@+id/menu_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Item 1" />
+
+    <TextView
+        android:id="@+id/menu_item_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Item 2" />
+
+    <TextView
+        android:id="@+id/menu_item_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu Item 3" />
+</LinearLayout>

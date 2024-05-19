@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_menu_tambah"
+        android:title="Tambah" />
+    <item
+        android:id="@+id/nav_menu_data_alumni"
+        android:title="Data Alumni" />
+    <item
+        android:id="@+id/nav_menu_logout"
+        android:title="Logout" />
+</menu>
